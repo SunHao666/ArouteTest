@@ -47,4 +47,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
         app:layout_constraintVertical_bias="0.413" />
+
+    <Button
+        android:id="@+id/mSchemeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skip scheme"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.643" />
+    <Button
+        android:id="@+id/mServiceBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跨模块通讯"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.843" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,10 +13,10 @@ class App:Application() {
 
     private fun initAroute() {
         //Aroute 初始化
-        if(BuildConfig.DEBUG){
+//        if(BuildConfig.DEBUG){
             ARouter.openLog()
             ARouter.openDebug()
-        }
+//        }
         ARouter.init(this)
     }
 }
